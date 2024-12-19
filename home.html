@@ -1,0 +1,135 @@
+<!--Cabeçalho padrão-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Metadados-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--T´tiulo da aba de navegação-->
+    <title>AcM Discos</title>
+    <!--Link da página de estilo CSS para estilizar a página HTML-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subpages.css">
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <header> 
+        <!--Menu superior-->
+        <nav>
+            <div class="logo">
+                <a href="home.html">
+                <img src="logo.png" alt="logo" class="logo" width="150" height="150">
+                </a>
+            </div>
+            <ul>
+                <!--Links de direcionamento para outras páginas-->
+                <li><a href="#"><img src="twitter.png" width="57" height="57"></a></li></li>
+                <li><a href="#"><img src="facebook.png" width="50" height="50"></a></li></li>
+                <li><a href="#"><img src="instagram.png" width="50" height="50"></a></li></li><!--Link para a página do carrinho de compras-->
+                <li><a href="#"><img src="pinterest.png" width="54" height="54"></a></li></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <nav>
+        <ul>
+            <a href="about.html">Quem somos</a>
+            <a href="contato.html">Contato</a>
+            <a href="login.html"><img src="login.png" width="27" height="27"></a>
+            <a href="carrinho.html"><img src="compra.png" width="27" height="27"></a>
+        </ul>
+    </nav>
+   </div>
+
+    <br><br><br><br><br><br><br><br><br>
+    
+    <center><div class="principal">
+        <a href="#ofertas">
+        <img src="ofertas.jpg" width="300" height="500">
+        </a>
+    
+        <a href="artistas.html">
+        <img src="artistas.jpg" width="300" height="500">
+        </a>
+    
+        <a href="discos.html">
+        <img src="discos.jpg" width="300" height="500">
+        </a>
+    
+        <a href="#cadastrar">
+        <img src="cadastro.jpg" width="300" height="500">
+        </a>
+        </div></center>
+
+        <br><br><br><br><br><br><br><br><br>
+
+        <section id="ofertas">
+            <center><h1>Ofertas da Semana!</h1></center>
+            
+            <br><br><br><br><br><br><br><br><br>
+
+            <!--Lista dos produtos em oferta-->
+            <div class="product-list">
+                <div class="product">
+                    <img src="album3.jpg" alt="Disco 1"><!--Imagem do produto 1-->
+                    <h2>My Dear Melancholy - The Weeknd</h2>
+                    <p>R$ 59,99</p>
+                    <br>
+                    <button>Adicionar ao Carrinho</button><!--Botão para adicionar itens ao carrinho-->
+                </div>
+                <div class="product">
+                    <img src="album4.jpg" alt="Disco 2"><!--Imagem do produto 2-->
+                    <h2>Lost In Heaven - Chase Atlantic</h2>
+                    <p>R$ 69,99</p>
+                    <br>
+                    <button>Adicionar ao Carrinho</button><!--Botão para adicionar itens ao carrinho-->
+                </div>
+            </div>
+        </section>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <section id="cadastrar">
+            <div class="login-container">
+
+                
+                <div class="login-card">
+                    <h1>Cadastro</h1>
+                    <p>Crie sua conta para comprar e alugar seus discos favoritos</p>
+                    <form action="#" method="POST">
+                        <div class="input-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn">Cadastrar</button>
+                        <br>
+                        <a href="login.html">Já possui uma conta?</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <div class="footer-content">
+            <nav>
+                <p>&copy; 2024 AcM Discos - A trilha sonora das suas melhores lembranças</p><!--Texto do rodapé-->
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
